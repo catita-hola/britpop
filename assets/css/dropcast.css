@@ -30,7 +30,7 @@ html {
 body {
   min-height: 100%;
   font-size: 62.5%;
-  background-color: #141720;
+  background-color: #011b58;
   font-family: 'Source Sans Pro', sans-serif;
   color: #F7F7F6;
   display: flex;
@@ -122,7 +122,7 @@ nav {
   position: relative; }
   .site__title.site__title--separator:after {
     position: absolute;
-    border-bottom: 3px solid #F79E77;
+    border-bottom: 3px solid #c8102e;
     width: 40%;
     content: '';
     left: 0;
@@ -200,31 +200,31 @@ nav {
   position: relative;
   display: flex; }
   .episode:nth-child(1) .episode__image {
-    background-image: url(../images/photos/edited/1.png); }
+    background-image: url(../images/photos/edited/1blancoynegro.jpg); }
   .episode:nth-child(2) .episode__image {
-    background-image: url(../images/photos/edited/2.png); }
+    background-image: url(../images/photos/edited/2blancoynegro.jpg); }
   .episode:nth-child(3) .episode__image {
-    background-image: url(../images/photos/edited/3.png); }
+    background-image: url(../images/photos/edited/3blancoynegro.jpg); }
   .episode:nth-child(4) .episode__image {
-    background-image: url(../images/photos/edited/4.png); }
+    background-image: url(../images/photos/edited/4blancoynegro.jpg); }
     .episode:nth-child(5) .episode__image {
-      background-image: url(../images/photos/edited/elastica.jpg); }
+      background-image: url(../images/photos/edited/5blancoynegro.jpg); }
       .episode:nth-child(6) .episode__image {
-        background-image: url(../images/photos/edited/blur.jpg); }
+        background-image: url(../images/photos/edited/6blancoynegro.jpg); }
   .episode:hover .episode__detail:before {
     width: 100%; }
   .episode:hover:nth-child(1) .episode__image {
-    background-image: url(../images/photos/original/1.png); }
+    background-image: url(../images/photos/original/1color.jpg); }
   .episode:hover:nth-child(2) .episode__image {
-    background-image: url(../images/photos/original/2.png); }
+    background-image: url(../images/photos/original/2color.jpg); }
   .episode:hover:nth-child(3) .episode__image {
-    background-image: url(../images/photos/original/3.png); }
+    background-image: url(../images/photos/original/3color.jpg); }
   .episode:hover:nth-child(4) .episode__image {
-    background-image: url(../images/photos/original/4.png); }
+    background-image: url(../images/photos/original/4color.jpg); }
     .episode:hover:nth-child(5) .episode__image {
-      background-image: url(../images/photos/original/3.png); }
+      background-image: url(../images/photos/original/5color.jpg); }
       .episode:hover:nth-child(6) .episode__image {
-        background-image: url(../images/photos/original/3.png); }
+        background-image: url(../images/photos/original/6color.jpg); }
 
 .episode__number {
   display: none;
@@ -234,7 +234,7 @@ nav {
   z-index: 1;
   font-size: 3rem;
   margin: 0;
-  color: #ff00ea; }
+  color: #c8102e; }
 
 .episode__image {
   background-size: cover;
@@ -333,7 +333,7 @@ nav {
     cursor: pointer;
     position: relative; }
     .audio-player .slider .progress {
-      background-color: #ff0000;
+      background-color: #7CCDB9;
       border-radius: inherit;
       position: absolute;
       pointer-events: none; }
