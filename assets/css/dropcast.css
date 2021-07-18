@@ -48,20 +48,6 @@ a {
   a:hover {
     text-decoration: underline; }
 
-footer {
-  background-color: #1C1F2A;
-  display: flex;
-  padding: .5rem 2rem;
-  font-size: 1rem;
-  font-weight: 300; }
-  footer .footer__content {
-    width: 60%; }
-  footer .footer__logo {
-    width: 40%;
-    text-align: right;
-    align-self: center;
-    margin-top: 0.5rem 0 -0.5rem 0; }
-
 .hidden {
   opacity: 0; }
 
@@ -144,7 +130,7 @@ nav {
 
 .site__secondary_title {
   display: none;
-  color: black;
+  color:#011b58;
   margin: 2rem 5rem 0 5rem;
   font-size: 1.2rem;
   font-family: 'Source Sans Pro', sans-serif; }
@@ -174,24 +160,24 @@ nav {
       font-weight: 800;
       color: white; }
   .site__navigation .site__navigation_items--right {
-    background-color: #F79E77;
+    background-color: #edafb9;
     padding-left: 5rem;
     text-align: right; }
     .site__navigation .site__navigation_items--right label {
-      color: #f15917; }
+      color: #c8102e; }
     .site__navigation .site__navigation_items--right:hover {
-      background-color: #f15917; }
+      background-color: #c8102e; }
       .site__navigation .site__navigation_items--right:hover label {
         color: #692406; }
   .site__navigation .site__navigation_items--left {
-    background-color: #7CCDB9;
+    background-color: #c8102e;
     padding-right: 5rem; }
     .site__navigation .site__navigation_items--left label {
-      color: #3fa48b; }
+      color: #c8102e; }
     .site__navigation .site__navigation_items--left:hover {
-      background-color: #3fa48b; }
+      background-color: #c8102e; }
       .site__navigation .site__navigation_items--left:hover label {
-        color: #14362d; }
+        color: #c8102e; }
 
 #site__bg {
   display: none; }
@@ -226,7 +212,7 @@ nav {
       .episode:hover:nth-child(6) .episode__image {
         background-image: url(../images/photos/original/6color.jpg); }
 
-.episode__number {
+.episode__number1 {
   display: none;
   position: absolute;
   top: -2rem;
@@ -235,6 +221,51 @@ nav {
   font-size: 3rem;
   margin: 0;
   color: #c8102e; }
+  .episode__number2 {
+    display: none;
+    position: absolute;
+    top: -2rem;
+    left: -1.5rem;
+    z-index: 1;
+    font-size: 3rem;
+    margin: 0;
+    color: #c8102e; }
+    .episode__number3 {
+      display: none;
+      position: absolute;
+      top: -2rem;
+      left: -1.5rem;
+      z-index: 1;
+      font-size: 3rem;
+      margin: 0;
+      color: #c8102e; } 
+       .episode__number4 {
+        display: none;
+        position: absolute;
+        top: -2rem;
+        left: -1.5rem;
+        z-index: 1;
+        font-size: 3rem;
+        margin: 0;
+        color: #c8102e; }
+          .episode__number5 {
+          display: none;
+          position: absolute;
+          top: -2rem;
+          left: -1.5rem;
+          z-index: 1;
+          font-size: 3rem;
+          margin: 0;
+          color: #c8102e; }
+          .episode__number6 {
+            display: none;
+            position: absolute;
+            top: -2rem;
+            left: -1.5rem;
+            z-index: 1;
+            font-size: 3rem;
+            margin: 0;
+            color: #c8102e; }
 
 .episode__image {
   background-size: cover;
@@ -298,7 +329,7 @@ nav {
   border: none;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #141720;
+  background-color: #001646;
   outline: none; }
   .play-pause-btn.play {
     background-image: url(../images/play.svg); }
@@ -307,7 +338,7 @@ nav {
 
 .audio-player {
   position: fixed;
-  background-color: #292C37;
+  background-color: #F7F7F6;
   bottom: 0;
   left: 0;
   right: 0;
@@ -333,7 +364,7 @@ nav {
     cursor: pointer;
     position: relative; }
     .audio-player .slider .progress {
-      background-color: #7CCDB9;
+      background-color: #c8102e;
       border-radius: inherit;
       position: absolute;
       pointer-events: none; }
@@ -341,10 +372,10 @@ nav {
         height: 16px;
         width: 16px;
         border-radius: 8px;
-        background-color: #7CCDB9;
+        background-color: #c8102e;
         position: absolute;
         pointer-events: all;
-        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.32); }
+        box-shadow: #011b58; }
   .audio-player .controls {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
@@ -454,9 +485,19 @@ nav {
     .episode:hover .episode__detail:before {
       display: none; }
 
-  .episode__number {
+  .episode__number1 {
     display: block; }
-
+    
+  .episode__number2 {
+    display: block; }
+    .episode__number3 {
+      display: block; }
+      .episode__number4 {
+        display: block; }
+        .episode__number5 {
+          display: block; }
+          .episode__number6 {
+            display: block; }
   .episode__media {
     width: 100%;
     height: 294px;
@@ -528,7 +569,7 @@ nav {
   /* audio player */
   .site__playbar {
     background: white;
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1); }
+    box-shadow: #011b58; }
 
   .audio-player {
     position: inherit;
