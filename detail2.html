@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>El rincón Britpop</title>
+      <link rel="stylesheet" href="assets/css/dropcast.css">
+      <link rel="author" href="humans.txt">
+      <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Rufina:400,700|Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    </head>
+    <body class="page--detail">
+      <nav>
+        <div class="logo nav__logo">
+          <a href="index.html"><img src="assets/images/logo.svg" alt="logo"/></a>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="">Episodios</a></li>
+        </ul>
+        <ul class="nav__social">
+          <li><a href="https://www.instagram.com/skidledoop/" class="nav_social__item"><i class="fab fa-google-play"></i></a></li>
+          <li><a href="https://open.spotify.com/artist/7MhMgCo0Bl0Kukl93PZbYS" class="nav_social__item"><i class="fab fa-itunes-note"></i></a></li>
+          <li><a href="#" class="nav_social__item"><i class="fas fa-rss-square"></i></a></li>
+        </ul>
+      </nav>
+      <section class="site">
+        <div id="site__bg"></div>
+        <div class="left">
+          <label for="" class="site__label">Episode #2</label>
+          <h1 class="site__title site__title--separator">BLUR</h1>
+        </div>
+        <div class="right">
+          <img src="assets/images/photos/original/1color.jpg" alt="" class="episode__image">
+          <div class="audio-player site__playbar">
+            <div class="loading">
+              <div class="spinner"></div>
+            </div>
+            <button class="play-pause-btn play"></button>
+            <div class="controls">
+              <span class="current-time">0:00</span>
+              <div class="slider" data-direction="horizontal">
+                <div class="progress">
+                  <div class="pin" id="progress-pin" data-method="rewind"></div>
+                </div>
+              </div>
+              <span class="total-time">0:00</span>
+            </div>
+
+            <audio preload="true">
+              <source src="assets/audio/Canción 2-For Tomorrow.mp3" type="audio/ogg" />
+              <source src="assets/audio/example.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <h4 class="site__secondary_title">BLUR</h4>
+          <p class="site__description">Blur es una banda formada en 1988 en Londres, y que al principio se llamaban “Seymour”. Está conformada por Damon Albarn, Graham Coxon, Alex James y el baterista Dave Rowntree. El primer álbum de la banda, publicado en 1991, tenía claras influencias del movimiento shoe-gazing que era muy popular en ese tiempo. A pesar de esto, no fue muy bien recibido. De hecho, corrían riesgo de ser despedidos por su sello discográfico. Y peor aún, tuvieron un desastroso tour promocional por Estados Unidos. Sin embargo, como respuesta a este fracaso de tour y a que extrañaban Inglaterra, el  vocalista Damon Albarn decidió cambiar la propuesta de la banda, y enfocarse en sonidos y temáticas <a href="https://proxymusic.club/2018/10/18/blur-and-stylorouge-parklife-modern-life-is-rubbish/">puramente británicos</a> cambiando para siempre el destino de la banda.</p>
+          <div class="site__navigation">
+            <!-- toggle on the previous as needed -->
+            <a href="#" class="site__navigation_items site__navigation_items--left hidden">
+              <label for="">Previous Episode</label>
+              <h4>Dylan Perry</h4>
+            </a>
+            <a href="#" class="site__navigation_items site__navigation_items--right">
+              <label for="">Next Episode</label>
+              <h4>Dylan Perry</h4>
+            </a>
+          </div>
+        </div>
+      </section>
+      <script src="assets/js/dropcast.js"></script>
+      <script src="assets/js/player.js"></script>
+    </body>
+</html>
