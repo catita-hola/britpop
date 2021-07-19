@@ -62,7 +62,8 @@ nav {
 
 .nav__logo {
   display: block;
-  transform: translate3d(20px, 40px, 0); }
+  transform: translate3d(20px, 40px, 0);
+  color: #edafb9; }
 
 .nav__list {
   list-style: none;
@@ -329,7 +330,7 @@ nav {
   border: none;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #001646;
+  background-color: #011b58;
   outline: none; }
   .play-pause-btn.play {
     background-image: url(../images/play.svg); }
