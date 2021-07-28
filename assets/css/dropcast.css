@@ -63,7 +63,7 @@ nav {
 .nav__logo {
   display: block;
   transform: translate3d(20px, 40px, 0);
-  color: #edafb9; }
+  color: #ffff; }
 
 .nav__list {
   list-style: none;
